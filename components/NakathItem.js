@@ -20,9 +20,9 @@ function NakathItem({
   const navigation = useNavigation();
 
   function selectMealItemHandler() {
-    navigation.navigate('MealDetail', {
-      mealId: id,
-    });
+    // navigation.navigate('MealDetail', {
+    //   mealId: id,
+    // });
   }
 
   return (

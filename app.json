@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "RNCourses",
+    "name": "Litha | ලිත 2024",
     "slug": "RNCourses",
-    "version": "1.0.0",
+    "version": "3.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -18,13 +18,21 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 10,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kaiya.litha"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f366c4e2-4950-4944-b945-9e7a71f7bb0b"
+      }
+    },
+    "owner": "prabodham"
   }
 }
